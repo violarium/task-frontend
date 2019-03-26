@@ -1,0 +1,43 @@
+body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.clearfix:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.widget {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+}
+
+
+.widget .header .title {
+    color: #3d8030;
+    font-size: 16px;
+    float: left;
+}
+
+.widget .header .buttons {
+    float: right;
+}
+
+
+.widget .content {
+    border: 1px solid #636363;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.widget .header .buttons .minimize,
+.widget .header .buttons .unminimize {
+    cursor: pointer;
+}
